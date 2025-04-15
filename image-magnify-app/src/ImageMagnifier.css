@@ -1,0 +1,17 @@
+.image-magnifier-container {
+  display: inline-block;
+  position: relative;
+}
+
+.image-magnifier-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+.image-magnifier-lens {
+  /* Styles are mostly inline in the component */
+  transition: opacity 0.2s ease;
+}
